@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 const dbConnection = async() => {
 
     try {
-        await mongoose.connect('mongodb+srv://mean_user:bxZcckfBEX8I7MYa@cluster0.ncxkpjv.mongodb.net/hospitaldb', {
+        await mongoose.connect('mongodb+srv:<username>//:<password>.mongodb.net/hospitaldb', {
         });
 
         console.log('Db Online')
