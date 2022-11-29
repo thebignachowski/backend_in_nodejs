@@ -14,6 +14,14 @@ npm install -g nodemon
 
 npm install mongoose
 
+# Loads enviroment variables
+
+npm install dotenv
+
+# Cors
+
+npm install cors
+
 # Starting point app
 
 index.js
